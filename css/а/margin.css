@@ -1,0 +1,34 @@
+/* .master {
+display: flex;
+width: 1200px;
+margin-left: 15px;
+margin-right: 15px;
+padding-left: ;
+padding-right: ;
+}
+.container {
+width: 1600px;
+height: 80px;
+margin-top: 0px;
+margin-left: 0px;
+display: flex; 
+flex-direction: row; 
+ 
+}
+.list .site-nav
+ {
+margin-top: 0px;
+margin-left: 0px;
+display: flex;  
+flex-direction: row; 
+text-decoration: none;
+align-iteams: baseline;
+justify-content: center;  
+}
+
+ {
+display: flex;  
+flex-direction: row-reverse; 
+align-iteams: baseline;
+justify-content: space-between;  
+} */
