@@ -250,3 +250,42 @@ h3 {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
+
+
+/* indent marking */
+
+.main-cap {
+  display: flex;
+  width: 1600px;
+  height: 80px;
+  padding-top: 0;
+}
+.logotype {
+  display: flex;
+  padding-top: 0;
+  padding-left: 215px;
+  padding-right:1240px;
+}
+.site-nav {
+display: flex;
+
+}
+.block-1 {
+  display: flex;
+  align-iteams: center;
+  padding-top: 0;
+  flex-direction: row; 
+  justify-content: flex-start;
+}
+.block-2 {
+  display: flex;
+  align-iteams: center;
+  padding-top: 0;
+ 
+  
+}
+.list-1 {
+display: flex;  
+}
+
+}
