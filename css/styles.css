@@ -15,9 +15,7 @@ h3 {
 h1 {
   visibility: hidden;
 }
-h2 {
-  visibility: hidden;
-}
+
 .section .sub-header {
   visibility: hidden;
 }
@@ -28,6 +26,7 @@ h2 {
 .main-content h2 {
   text-align: center;
   font-size: 2.2;
+ 
 }
 .main-content h3 {
   font-size: 2;
@@ -68,12 +67,16 @@ footer {
   line-height: 1.14;
   color: #212121;
 }
+/* Add backlight */
+.sub-nav .title .current{
+  color: #2196f3;
+}
 .sub-nav .title .title-2 {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: #212121;
+  color:  #2196f3;
 }
 .item a {
   font-family: Roboto;
@@ -84,6 +87,16 @@ footer {
   color: #757575;
 }
 /* hidden the bottom */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
 
 /* Add hover, focus and active(dark/blue color) for nav unit */
 .sub-nav .title .title-2:focus,
@@ -103,6 +116,9 @@ footer {
   color: #2196f3;
 }
 /* Main content */
+.btn-option::selection {
+ color:#212121; 
+}
 .titles .btn-option {
   font-family: Roboto;
   font-weight: 500;
@@ -110,9 +126,21 @@ footer {
   line-height: 1, 62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color:#212121;
+  background-color: #F5F4FA;
+  order-color:#F5F4FA ;
 }
+*{outline: 0 !important;}
+.titles .btn-option::-moz-focus-inner,
+.titles .btn-option::-moz-focus-outer {
+  border: 0;
+} 
+.titles .btn-option:hover,
+.titles .btn-option:focus {
+background-color: #2196F3;
+color: #ffffff;
+}
+
 /* background div) */
 .titles .btn {
   font-family: Roboto;
@@ -186,4 +214,10 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.basement .info .no-italic {
+  font-style: normal;
+}
+*no-italic {
+  font-style: normal;
 }
