@@ -26,7 +26,6 @@ h1 {
 .main-content h2 {
   text-align: center;
   font-size: 2.2;
- 
 }
 .main-content h3 {
   font-size: 2;
@@ -151,6 +150,7 @@ color: #ffffff;
   letter-spacing: 0.03em;
   color: #ffffff;
   background-color: #2196f3;
+  
 }
 /* Projects commyuity */
 .feature .paper {
