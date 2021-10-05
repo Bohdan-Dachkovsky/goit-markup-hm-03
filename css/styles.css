@@ -6,11 +6,13 @@
   font-style: normal;
 }
 /* HEADING  */
-body h1,
+body > h1,
 h2,
 h3 {
   text-align: center;
   font-size: 2;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   visibility: hidden;
@@ -117,7 +119,9 @@ footer {
 /* Main content */
 .btn-option::selection {
  color:#212121; 
+
 }
+
 .titles .btn-option {
   font-family: Roboto;
   font-weight: 500;
@@ -127,7 +131,7 @@ footer {
   letter-spacing: 0.03em;
   color:#212121;
   background-color: #F5F4FA;
-  order-color:#F5F4FA ;
+  border-color:#F5F4FA ;
 }
 *{outline: 0 !important;}
 .titles .btn-option::-moz-focus-inner,
@@ -150,6 +154,7 @@ color: #ffffff;
   letter-spacing: 0.03em;
   color: #ffffff;
   background-color: #2196f3;
+  padding-top: 94px;
   
 }
 /* Projects commyuity */
@@ -220,4 +225,110 @@ color: #ffffff;
 }
 *no-italic {
   font-style: normal;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  }
+.container-1 {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-nav-unit {
+  display: flex;
+  justify-content: flex-end;
+}
+.sub-iteam-unit {
+  display: flex;
+  justify-content: flex-end;
+}
+.net-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  text-align: center;
+}
+/* Margin for header */
+.logo {
+  padding-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+ .dif-page {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding: 50px;
+}
+.title-1 {
+ padding-top: 32px;
+ padding-bottom: 32px;
+}
+
+.sub-iteam-unit .town {
+ padding-left: auto;
+ padding-right: 50px;
+}
+.button {
+padding: 0px;
+margin: 0px;
+display: flex;
+
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+align-content: center;
+justify-content: center;
+vertical-align: middle;
+}
+.btn-option-size-first {
+border-radius: 0px;
+width: 73px;
+height: 38px;
+padding-left: 8px;
+vertical-align: middle;
+
+}
+.btn-option-size-second {
+width: 85px;
+height: 26px;
+padding-left: 8px;
+}
+.btn-option-size-third {
+width: 101px;
+height: 26px;
+padding-left: 8px;
+}
+.btn-option-size-fourth {
+width: 59px;
+height: 26px;
+padding-left: 8px;
+}
+.btn-option-size-fifth {
+width: 86px;
+height: 26px;
+padding-left: 8px;
+}
+.list-of-file {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+.list-of-file > .feature {
+  flex-basis: calc(100%/3);
+}
+.basement > p {
+  width: 145px;
+  height: 31px;
+}
+.basement > a {
+  width: 231px;
+  height: 21px;
 }
