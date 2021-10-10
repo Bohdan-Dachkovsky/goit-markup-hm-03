@@ -147,7 +147,11 @@ h3 {
 /*Color page*/
 .wrapper {
   background-color: #2f303a;
-  height: 600px;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Header-1 */
 .wrapper .first-unit {
@@ -157,14 +161,16 @@ h3 {
   font-size: 44px;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 200px;
   margin-bottom: 30px;
   color: #ffffff; 
   width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
-
+.caption .wrapper {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 /* Button */
 .wrapper .btn {
   width: 200px;
@@ -299,8 +305,9 @@ h3 {
   box-sizing: inherit;
   }
  .section {
-  margin-top: 94px;
- 
+   padding-top: 94px;
+  background-color: #F5F4FA;
+  padding-bottom: 94px;
  }
  img {
   display: block;
@@ -314,11 +321,7 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
-.bussines-box {
- background-color: #F5F4FA;
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
+
 
 
 .head-container {
@@ -347,7 +350,7 @@ h3 {
 }
 /* Margin for header */
 .nav-container .page-for-logo {
-  padding-right: 93px;
+  margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
   vertical-align: middle;
@@ -355,15 +358,15 @@ h3 {
 .link-1 {
   padding-top: 32px;
   padding-bottom: 32px;
-  padding: 50px;
+  margin: 50px;
 }
 .link {
  padding-top: 32px;
  padding-bottom: 32px;
 }
 .second-site-unit .contact {
- padding-left: 159px;
- padding-right: 50px;
+ margin-left: 70px;
+ padding-right: 40px;
  padding-top: 32px;
  vertical-align: middle;
 }
@@ -380,7 +383,6 @@ margin: 0px;
 display: flex;
 margin-left: auto;
 margin-right: auto;
-
 }
 /* hidden h2 */
 .sub-title {
