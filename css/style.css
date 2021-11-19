@@ -3,6 +3,7 @@
   --primery-item-color: #757575;
   --internal-light-dark: #ffffff;
   --permanent-color: rgba(255, 255, 255, 0.6);
+  --bg-section-color: rgba(245, 244, 250, 1); 
 }
 
 ul {
@@ -243,6 +244,9 @@ h3 {
   font-size: 36px;
   line-height: 1.16;
   color: #212121;
+}
+ #bussines-box {
+ background-color: var(--bg-section-color); 
 }
 .section .subtitle-2 {
   font-weight: 700;
