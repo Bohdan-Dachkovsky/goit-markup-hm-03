@@ -244,6 +244,7 @@ h3 {
   font-size: 36px;
   line-height: 1.16;
   color: #212121;
+  margin: 0;
 }
  #bussines-box {
  background-color: var(--bg-section-color); 
@@ -370,6 +371,7 @@ h3 {
 }
 .box {
  display: flex; 
+ max-width: 1048px;
 }
 /* Margin for header */
 .nav-container .page-for-logo {
@@ -450,22 +452,21 @@ padding-bottom: 50px;
 
 .spesialist {
   display: flex;
-  flex-wrap: no-wrap;
-  width: 1200px;
-
+  flex-wrap:wrap;
+  width: 1230px;
 }
 .card {
 box-shadow: 0px 2px 1px 0px #00000033;
 background-color: #ffffff;
-width: 270px;
-
+max-width: 270px;
+display: block;
 }
 .spesialist > .list-employee {
-  outline: 2px solid gold;
-  flex-basis: calc(100%/4);
-  margin-left: 20px;
-  margin-top: 20px;
-  
+  max-width: 270px;
+  margin-right: 36px; 
+}
+.spesialist > .list-employee:nth-child(4n) {
+   margin-right:0px; 
 }
 p {
     display: block;
@@ -738,6 +739,7 @@ color: #ffffff;
 .sub-iteam-unit {
   display: flex;
   justify-content: flex-end;
+  margin-left: auto;
 }
 .net-menu {
   display: flex;
@@ -850,6 +852,7 @@ margin-inline-end: 0px;
   list-style: none; 
   margin-left: 30px;
   margin-top: 30px;
+  border: rgba(238, 238, 238, 1);
 } 
 
 .basement > p {
